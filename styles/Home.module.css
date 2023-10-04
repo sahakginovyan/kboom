@@ -1,0 +1,17 @@
+.main {
+    height: 100vh;
+}
+
+.bodyContainer {
+    height: calc(100vh - 3.75rem);
+    display: flex;
+}
+
+.container {
+    display: flex;
+    height: 100%;
+    width: calc(100% - 6.66rem);
+    justify-content: center;
+    align-items: center;
+    color: var(--primary);
+}

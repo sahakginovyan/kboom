@@ -1,0 +1,77 @@
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/*ProfileMenu*/
+.icon-paper:before {
+  content: "\e904";
+}
+.icon-account:before {
+  content: "\e90d";
+}
+.icon-award:before {
+  content: "\e90e";
+}
+.icon-bell:before {
+  content: "\e90f";
+}
+.icon-medal:before {
+  content: "\e905";
+}
+.icon-settings:before {
+  content: "\e910";
+}
+.icon-shop:before {
+  content: "\e901";
+}
+.icon-map2:before {
+  content: "\e94c";
+}
+
+/*Social*/
+.icon-twitter:before {
+  font-size: 1.5rem;
+  color: var(--primary);
+  content: "\ea96";
+}
+.icon-youtube:before {
+  font-size: 1.5rem;
+  color: var(--primary);
+  content: "\ea9d";
+}
+.icon-twitch:before {
+  font-size: 1.5rem;
+  color: var(--primary);
+  content: "\ea9f";
+}
+.icon-tiktok:before {
+  font-size: 1.5rem;
+  content: "\e90c";
+  color: var(--primary);
+}
+.icon-discord:before {
+  font-size: 1.5rem;
+  content: "\e902";
+  color: var(--primary);
+}
+.icon-facebook:before {
+  font-size: 1.5rem;
+  color: var(--primary);
+  content: "\e903";
+}
+.icon-instagram:before {
+  font-size: 1.5rem;
+  color: var(--primary);
+  content: "\e900";
+}

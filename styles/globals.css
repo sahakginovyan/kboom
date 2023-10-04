@@ -1,0 +1,43 @@
+@import "fonts.css";
+@import "icons.css";
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    --active: linear-gradient(to right, #FCE33E 0%, #BC7824 100%);
+    --primary: #2CE5A7;
+    --secondary: #587481;
+    --background: #262C3A;
+    --primary-dark: #2B5D68;
+    --light-bg: #2A3141;
+    font-family: Asap;
+    font-size: 16px;
+
+    /* Extra large devices (large laptops and desktops, 1200px and up) */
+    @media only screen and (max-width: 1200px) {
+        font-size: 12px;
+    }
+
+    /* Large devices (laptops/desktops, 992px and up) */
+    @media only screen and (max-width: 992px) {
+        font-size: 10px;
+    }
+
+    /* Medium devices (landscape tablets, 768px and up) */
+    @media only screen and (max-width: 768px) {
+        font-size: 8px;
+    }
+
+    /* Small devices (portrait tablets and large phones, 600px and up) */
+    @media only screen and (max-width: 600px) {
+        font-size: 6px;
+    }
+}
+
+body {
+    background-color: var(--background);
+}

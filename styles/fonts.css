@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'Asap';
+    src: url('./fonts/asap.ttf');
+}
+
+@font-face {
+    font-family: 'SF Pro Text';
+    src: url('./fonts/SFProText-Medium.ttf');
+}
+
+@font-face {
+    font-family: 'icomoon';
+    src: url('icons/icomoon.eot?oz7fu9');
+    src: url('icons/icomoon.eot?oz7fu9#iefix') format('embedded-opentype'),
+    url('icons/icomoon.ttf?oz7fu9') format('truetype'),
+    url('icons/icomoon.woff?oz7fu9') format('woff'),
+    url('icons/icomoon.svg?oz7fu9#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}

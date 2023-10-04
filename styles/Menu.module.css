@@ -1,0 +1,45 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.item {
+    padding: 0.5rem 0.75rem;
+    cursor: pointer;
+    color: var(--primary);
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.3125rem; /* 150% */
+    letter-spacing: 0.1px;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    transition: all 0.3s ease;
+    border-radius: 46px;
+}
+
+.item:hover {
+    opacity: 0.8;
+    background-color: var(--primary);
+    color: var( --background);
+}
+
+.active {
+    background-color: var(--primary);
+    color: var( --background);
+}
+
+.icon {
+    font-size: 1.5rem;
+}
+
+.title {
+    color: #FFF;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.1875rem;
+    letter-spacing: 0.5px;
+}
